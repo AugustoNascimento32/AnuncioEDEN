@@ -10,10 +10,25 @@
     <header>
         <div class="container">
             <div class="logo">
-                <img src="acets/arvori.jpeg">
+                <a href=""> <img src="acets/arvori.jpeg"> </a>
             </div>
             <div class="menu">
-                ...
+                <nav>
+                    <ul>
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="">PRODUCTS</a></li>
+                        <li><a href="">PARTS</a></li>
+                    </ul>
+                    
+                </nav>
+                    <form class="search-bar" action="/search" method="GET">
+                        <input type="search" name="query" placeholder="Search here..." required>
+                        <button type="submit">Search</button>
+                    </form>
+                   Login: <input type="text" name="username" placeholder="Username" required> 
+                    PassWord: <input type="password" name="password" placeholder="Password" required> 
+                    <button type="submit">Login</button>
+                </form>
             </div>
 
         </div>
