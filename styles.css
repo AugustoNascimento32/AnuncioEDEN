@@ -306,3 +306,107 @@ main {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
     margin-left: 180px;
 }
+
+.rodapé {
+    width: 100%;
+    height: auto; 
+    background: radial-gradient(circle, #180404 0%, #414146 100%);
+    margin-top: 20px;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap; 
+}
+
+.seja-vip {
+    text-align: center;
+    max-width: 300px;
+}
+
+.seja-vip h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.seja-vip h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #969292;
+}
+
+.seja-vip h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.seja-vip input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.seja-vip button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.seja-vip button:hover {
+    background: #0056b3;
+}
+
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.icons img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.suporte {
+    max-width: 250px; 
+    text-align: center;
+}
+
+.suporte h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+.suporte p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #969292;
+}
+
+.direitos {
+    width: 80%;
+    height: 2px;
+    background-color: #c9c5c5;
+    box-shadow: 10px 10px 10px rgba(245, 244, 244, 0.822);
+}
+
+
+.copy, p {
+    color: #c9c5c5;
+}
